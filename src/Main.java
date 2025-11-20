@@ -4,9 +4,9 @@ public class Main {
     public static void main(String[] args) {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
-            var dog = 8.0;
-            var cat = 3.6;
-            var paper = 763789;
+        var dog = 8.0;
+        var cat = 3.6;
+        var paper = 763789;
         System.out.println("dog =" + dog + " cat =" + cat + " paper =" + paper);
         dog = dog + 4;
         cat = cat + 4;
@@ -46,7 +46,6 @@ public class Main {
         var timeWorker = 8;
         var staff = hoursWork / timeWorker;
         System.out.println(staff + " сотрудников");
-
         result = hoursWork / timeWorker;
         System.out.println ("Всего работников в компании " + result + " человек");
         var staff2 = staff + 94;
